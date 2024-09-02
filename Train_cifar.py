@@ -29,7 +29,7 @@ parser.add_argument('--lr', '--learning_rate', default=0.02, type=float, help='i
 parser.add_argument('--sim_t', type=float, default=2., help='temperature for dividing the data set')
 parser.add_argument('--noise_mode', default='sym')
 parser.add_argument('--alpha', default=4, type=float, help='parameter for Beta')
-parser.add_argument('--lambda_u', default=30, type=float, help='weight for unsupervised loss')
+parser.add_argument('--lambda_u', default=150, type=float, help='weight for unsupervised loss')
 parser.add_argument('--lambda_c', default=0.025, type=float, help='weight for contrastive loss')
 parser.add_argument('--lambda_hard', default=0.01, type=float, help='weight for hard sample loss')
 parser.add_argument('--lambda_con', default=0.01, type=float, help='weight for con loss')
