@@ -1,4 +1,4 @@
-Training on CIFAR-10/100 dataset  
+Training on CIFAR-100 dataset  
 
 lam_hard='0.025'  
 lam_con='0.05'  
